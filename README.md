@@ -9,7 +9,8 @@
 ## 已经工作 Working
 
 - CPU：Intel 10400（睿频已修正1GHz-4GHz，完美）
-- 显卡：Intel UHD 630（已经完美驱动）
+- 显卡：Intel UHD 630（已经完美驱动，可以使用dvi-hdmi）
+    - 2022.01.12：（此主板集成显卡无HDMI输出，但是可以通过DVI转HDMI）修正framebuffer，换用0000 id，修复dvi转hdmi后紫屏问题
 - 独立显卡：GTX 1660s（已屏蔽）
 - 网卡：主板板载，正常工作
 - USB：目前定制前面所有+后面4个USB3.0接口
